@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PageLayout from "./components/PageLayout";
 import Home from "./pages/Home"
 import Events from './pages/Events';
-import FoodDrinks from './pages/FoodDrinks';
+import Food from './pages/Food';
+import Drinks from './pages/Drinks';
 import Cart from './pages/Cart';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
               <Route>
                 <Route path='/' element={<Home />} />
                 <Route path='/events' element={<Events />} />
-                <Route path='/fooddrinks' element={<FoodDrinks />} />
+                <Route path='/food' element={<Food />} />
+                <Route path='/drinks' element={<Drinks />} />
                 <Route path='/cart' element={<Cart />} />
               </Route>
             </Routes>

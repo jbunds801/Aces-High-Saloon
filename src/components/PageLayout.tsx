@@ -12,7 +12,6 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
       <div>
         <NavBar />
       </div>
-      <div>PageLayout</div>
       <div className="p-5">{children}</div>
     </>
   );
